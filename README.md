@@ -4,6 +4,8 @@ This is a very simple fork of the [PDF.js viewer][] that adds the
 page coordinates, in [point units][], of the current mouse position
 at the bottom-left of the viewport.
 
+It assumes the pages being viewed have the dimensions of [US Letter][].
+
 The only changes to the original viewer are in
 [`web/viewer.html`](web/viewer.html), which adds links to the following
 new files:
@@ -36,3 +38,4 @@ You can also run `yarn build` to rebuild the JS manually.
 
 [PDF.js viewer]: https://mozilla.github.io/pdf.js/getting_started/#download
 [point units]: https://en.wikipedia.org/wiki/Point_(typography)
+[US Letter]: https://en.wikipedia.org/wiki/Letter_(paper_size)
