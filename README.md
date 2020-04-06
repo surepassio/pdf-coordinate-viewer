@@ -34,5 +34,5 @@ changes, reload `web/viewer.html` in your browser.
 
 You can also run `yarn build` to rebuild the JS manually.
 
-[PDF.js]: https://mozilla.github.io/pdf.js/getting_started/#download
+[PDF.js viewer]: https://mozilla.github.io/pdf.js/getting_started/#download
 [point units]: https://en.wikipedia.org/wiki/Point_(typography)
