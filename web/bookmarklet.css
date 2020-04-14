@@ -8,3 +8,7 @@
   color: white;
   font-size: 18px;
 }
+
+div.annotationLayer {
+  pointer-events: none;
+}
