@@ -33,10 +33,10 @@ window.addEventListener('load', () => {
             const textLayer = findTextLayer(event.target);
             if (textLayer) {
                 const rect = textLayer.getBoundingClientRect();
-                const x = event.clientX - rect.left;
-                const y = event.clientY - rect.top;
-                const ptX = Math.floor((x / rect.width) * US_LETTER_WIDTH_PT);
-                const ptY = Math.floor((y / rect.height) * US_LETTER_HEIGHT_PT);
+                const x = event.clientX - rect.right;
+                const y = event.clientY - rect.bottom;
+                const ptX = Math.abs(Math.floor((x / rect.width) * US_LETTER_WIDTH_PT));
+                const ptY = Math.abs(Math.floor((y / rect.height) * US_LETTER_HEIGHT_PT));
                 showCoords(ptX, ptY);
             }
             else {
